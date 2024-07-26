@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+}
+header {
+    background-color: white;
+    color: blue;
+    padding: 15px 0;
+}
+nav ul{
+    color: white;
+list-style-type:none ;
+display: flex;
+justify-content: right;
+gap: 15px;
+
+
+}
+nav ul li {
+
+    text-decoration: none;
+    margin: 0,25;
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 12px;
+
+}
+
+.card{
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    text-align: center;
+    	width: 400px;
+    background-color: white;
+   border-radius: 10px;
+    height: 400px;
+    
+
+    
+}
+.card:hover{
+    box-shadow: 0.5 2px 5px  red;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 720px;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
